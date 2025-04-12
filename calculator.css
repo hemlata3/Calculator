@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sens-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_640.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cal {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(46, 42, 42);
+    box-shadow: 0px 3px 15px rgba(113, 115, 119);
+    margin-left: 30%;
+}
+
+input {
+    width: 350px;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    margin-block: 20px;
+    background: transparent;
+    box-shadow: 0px 1px 5px rgb(255, 255, 255, 0.5);
+    font-size: 40px;
+    cursor: pointer;
+    text-align: right;
+    color: white;
+}
+
+input::placeholder {
+    color: whitesmoke;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.2);
+    /* cursor: pointer; */
+}
+
+.equal {
+    background-color: orangered;
+    font-size: 25px;
+}
+
+.operator-2 {
+    background-color: green;
+    font-size: 25px;
+}
+
+.operator-1 {
+    background-color: green;
+}
